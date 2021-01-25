@@ -1,0 +1,40 @@
+.vscode/launch.json
+.bin
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+.cache/
+
+
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+.history
+.DS_Store
+
+build
+
+# env files
+.env.*.local

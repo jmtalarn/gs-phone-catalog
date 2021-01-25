@@ -1,0 +1,23 @@
+{
+    "editor.codeActionsOnSave": {
+        // For ESLint
+        "source.fixAll.eslint": true
+    },
+    "editor.detectIndentation": false,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "typescript.validate.enable": true,
+    "vetur.format.enable": false,
+    "prettier.singleQuote": true,
+    "vetur.format.defaultFormatter.html": "prettier",
+    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "editor.formatOnSave": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "typescript.format.insertSpaceAfterTypeAssertion": true,
+    "typescript.tsdk": "node_modules/typescript/lib"
+}

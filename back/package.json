@@ -1,0 +1,30 @@
+{
+	"name": "back",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"pretest": "PORT=4694 node server.js &",
+		"test": "cypress run",
+		"posttest": "kill-port 4694",
+		"precypress:open": "PORT=4694 node server.js &",
+		"cypress:open": "cypress open",
+		"postcypress:open": "kill-port 4694",
+		"start": "node server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"cypress": "^6.3.0",
+		"eslint": "^7.18.0",
+		"eslint-config-prettier": "^7.2.0",
+		"eslint-plugin-prettier": "^3.3.1",
+		"kill-port": "^1.6.1",
+		"prettier": "^2.2.1"
+	},
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1"
+	}
+}

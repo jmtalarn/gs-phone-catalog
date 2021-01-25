@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+	--textColor: gray;
+	--primaryColor: darkorange;
+	--secondaryColor: lightskyblue;
+	--errorColor: crimson;
+}
+
+*,
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	color: var(--textColor);
+	margin: 0;
+	/* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@keyframes shake {
+	10%,
+	90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(2px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-4px, 0, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(4px, 0, 0);
+	}
+}
+
+.show-later {
+	max-height: 0;
+	opacity: 0;
+	transition: opacity 300ms ease-in;
+}
+.show-later.now {
+	max-height: 50rem;
+	opacity: 1;
+}
+[contenteditable='true'] {
+	border-bottom: 1px dotted var(--secondaryColor);
+	cursor: pointer;
+}
