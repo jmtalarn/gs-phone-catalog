@@ -1,0 +1,1 @@
+APP_SERVER_PORT=3001 REACT_APP_PORT=3000 REACT_APP_SERVER_URL=http://server:3001 docker-compose up --build
